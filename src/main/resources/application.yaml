@@ -9,4 +9,4 @@ spring:
     config:
       server:
         native:
-          searchLocations: file:~/.config
+          searchLocations: file:${user.home}/.springCloudConfig/{label}/{application}/{profile}
